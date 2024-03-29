@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000); 
     }
 
-    // Event listener for the next button
+
     nextButton.addEventListener('click', () => {
-        startCountdown(); // Start the countdown when the next button is clicked
+        startCountdown(); 
     });
 });
