@@ -46,8 +46,29 @@ body, h1, button {
     height: 4px;
     background: linear-gradient(to right, var(--accent-color), var(--primary-color));
 }
-
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: var(--gap-large);
+    padding: var(--gap-large);
+    background: var(--light-bg);
+    border-radius: 8px;
+    margin: var(--gap-large);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+ .background div{
+    padding-left: 100px;
+    font-size: 2rem;
+    text-align: center;
+    text-wrap: wrap;
+    width: 80vw;
+    height: 50svh;
+ }
 .container {
+    visibility:hidden;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     gap: var(--gap-large);
@@ -242,4 +263,26 @@ body, h1, button {
     .OptionBtn {
         font-size: 12px; /* Smaller buttons and text on very small screens */
     }
+}
+
+
+
+:root {
+    /* Existing CSS variables */
+}
+
+/* Existing CSS styles */
+
+.background {
+    position: relative; /* Establishes a stacking context */
+    /* Existing .background styles */
+}
+
+.overlay {
+    position: absolute; /* Positions the .overlay div relative to its nearest positioned ancestor (.background) */
+    top: 0; /* Aligns the top edge of .overlay with the top edge of .background */
+    left: 0; /* Aligns the left edge of .overlay with the left edge of .background */
+    width: 100%; /* Ensures .overlay covers the full width of .background */
+    height: 100%; /* Ensures .overlay covers the full height of .background */
+    /* Add additional styling here for your overlay (e.g., background color, opacity) */
 }

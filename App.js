@@ -5,7 +5,9 @@ function nextHandeler() {
     count++
     console.log(reza);
 }
-
+function startHandler() {
+    document.getElementById("container").style.visibility = "visible"
+}
 document.addEventListener('DOMContentLoaded', () => {
     const nextButton = document.querySelector('.btn');
     let countdownNumber = 10; 
