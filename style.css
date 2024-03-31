@@ -1,7 +1,7 @@
 :root {
     /* Color scheme */
-    --primary-color: #a0d2eb;
-    --secondary-color: #494D5F;
+    --primary-color: #6bd698;
+    --secondary-color: #31c45d;
     --accent-color: #e74c3c;
     --light-bg: #E5EAF5;
     --dark-text: #34495e;
@@ -28,6 +28,27 @@ body, h1, button {
     justify-content: space-between;
     min-height: 100vh;
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+.intro{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 4rem;
+    align-items: center;
+    justify-self: center;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    width: 70%;
+    padding: 1rem;
+    color: #1b1d1c;
+    font-size:var(--gap-large);
+    font-family: var(--font-primary);
 }
 
 .navbar {
