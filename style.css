@@ -25,7 +25,6 @@ body, h1, button {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
 }
 .intro{
@@ -50,49 +49,6 @@ body, h1, button {
     font-family: var(--font-primary);
 }
 
-.navbar {
-    background-color: var(--primary-color);
-    color: var(--dark-text);
-    text-align: center;
-    font-size: 16px;
-    position: relative;
-}
-/* Basic styles for the navbar */
-.navbar {
-    text-align: center; /* Center the navigation items */
-    padding: 10px 0; /* Add some padding above and below the nav items */
-}
-
-.navbar ul {
-    list-style-type: none; /* Remove default list styles */
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    display: inline-block; /* Display nav items in a line */
-    margin-right: 20px; /* Add some space between the nav items */
-    padding: 8px 15px; /* Add some padding to each nav item */
- }
-
-
-
-
-
-.navbar ul li a {
-    text-decoration: none; /* Remove underline from links */
-
-}
-
-/* Responsive adjustments could be added here if needed */
-
-.logo{
-    width: 100px;
-    position: absolute;
-    left:44px;
-    top: 25px;
-    /* border-radius: 50%; */
-}
 
 
 .ontop{
@@ -278,4 +234,82 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     .OptionBtn {
         font-size: 12px; /* Smaller buttons and text on very small screens */
     }
+}
+
+
+/*  All the css for the new structure */
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--dark-text);
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+/* Basic styles for the navbar */
+.navbar {
+    text-align: center; /* Center the navigation items */
+    padding: 10px 0; /* Add some padding above and below the nav items */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block; /* Display nav items in a line */
+    margin-right: 40px; /* Add some space between the nav items */
+    padding: 10px 15px; /* Add some padding to each nav item */
+ }
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Responsive adjustments could be added here if needed */
+.logo{
+    width: 100px;
+    position: absolute;
+    left:45px;
+    top: 25px;
+    /* border-radius: 50%; */
+}
+
+.introPage{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: 45px;
+    margin-right: 45px;
+    justify-content: center;
+}
+.introText{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;   
+}
+.introText, h1{
+    font-size: 3.5rem;
+    color: rgba(29, 70, 69, 1);
+}
+.introText, p{
+    font-size: 1.5rem;
+}
+.flex-form{
+    display: flex;
+    flex-wrap: nowrap;  
+    gap: 1rem;  
+}
+.flex-form input[type="text"]{
+    width: 200px;
+    height: 40px;
+}
+.flex-form input[type="submit"]{
+    width: 150px;
+}
+.flex-form input[type="submit"]:hover {
+  background: #d73851;
+  border: 1px solid #d73851;
 }
