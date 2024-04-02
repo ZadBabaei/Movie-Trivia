@@ -362,3 +362,33 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     top: 150px;
     left: 150px;
 }
+.card{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+    border-radius: 5px;
+    max-width: 300px;
+    height:430px;
+    max-height: 700px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    top: 200px;
+}
+.card img{
+    padding-bottom: 5px;
+    border-bottom: rgba(178, 200, 178, 0.219) solid 2px;
+    margin-bottom: 40px;
+}
+.card h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.thirdSection{
+    height: 600px;
+    background-color: rgb(236, 168, 168);
+}
