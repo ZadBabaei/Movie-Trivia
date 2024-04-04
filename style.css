@@ -359,7 +359,7 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     color: aliceblue;
     font-size: 4rem;
     position: relative;
-    top: 150px;
+    top: 120px;
     left: 150px;
 }
 .card{
@@ -369,7 +369,7 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     justify-content: center;
     gap:1rem;
     border-radius: 5px;
-    max-width: 300px;
+    max-width: 400px;
     height:430px;
     max-height: 700px;
     padding: 20px;
@@ -386,6 +386,16 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     margin: 0;
     padding: 0;
     font-size: 2rem;
+}
+.card2{
+    position: relative;
+    left:610px;
+    top:-370px;
+}
+.card3{
+    position: relative;
+    left:1080px;
+    top:-900px;
 }
 
 .thirdSection{
