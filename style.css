@@ -353,14 +353,20 @@ border: 1px solid rgba(179, 196, 171, 0.43);
 .secondSection{
     background-color:rgba(29, 70, 69, 1);
     height: 680px;
-    display:block;
+    max-width: 1700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardholder{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
 }
 .secondSection h1{
     color: aliceblue;
     font-size: 4rem;
-    position: relative;
-    top: 120px;
-    left: 150px;
+    transform: translateY(80px) translateX(150px);;
 }
 .card{
     background-color:white;
@@ -374,9 +380,20 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     max-height: 700px;
     padding: 20px;
     position: relative;
-    left: 140px;
-    top: 200px;
 }
+
+.card1{
+    margin-left: 200px;
+    transform: translateY(50px);
+}
+.card2{
+    transform: translateY(-50px);
+}
+
+.card3{
+    transform: translateY(-100px);
+}
+
 .card img{
     padding-bottom: 5px;
     border-bottom: rgba(178, 200, 178, 0.219) solid 2px;
@@ -387,16 +404,7 @@ border: 1px solid rgba(179, 196, 171, 0.43);
     padding: 0;
     font-size: 2rem;
 }
-.card2{
-    position: relative;
-    left:610px;
-    top:-370px;
-}
-.card3{
-    position: relative;
-    left:1080px;
-    top:-900px;
-}
+
 
 .thirdSection{
     height: 600px;
