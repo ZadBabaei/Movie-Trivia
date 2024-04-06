@@ -425,6 +425,8 @@ button {
 
 /* Third section to explore trivia....................................................................... */
 .thirdSection {
+    display: flex;
+    flex-direction: column;
 	height: 900px;
 	margin-top: 10em;
 }
@@ -490,9 +492,27 @@ button {
 	box-shadow: none;
 	transform: translateY(0);
 }
+.thirdSectionCardHolder{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cardThirdSection1{
+    max-width: 500px;
+    height: 400px;
+    background-color: bisque;
+}
+.cardThirdSection1 img{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    
+}
 
 /* forth Section ......................................................................... */
 .forthSection {
 	height: 700px;
-	background-color: bisque;
+	
 }
+
