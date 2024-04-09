@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    height: 400px;
+    background-color: red;
+    display: grid;
+    grid-template-columns:2fr 2fr 1fr;
+    /* grid-template-rows:5rem 3fr; */
+    grid-gap: 20px;
+}
+
+.chldren1 {
+    background: #6a68ce;
+
+}
+.chldren2 {
+    background: #374238;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+}
+
+.icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
