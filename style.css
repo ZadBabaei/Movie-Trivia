@@ -276,22 +276,24 @@ button {
 }
 
 .navbar {
-	text-align: center; 
-	padding: 10px 0; 
+	text-align: center;
+	padding: 10px 0;
+}
 
 .navbar ul {
-	list-style-type: none; 
+	list-style-type: none;
 	padding: 0;
 }
 
 .navbar ul li {
-	display: inline-block; 
+	display: inline-block;
 	margin-right: 40px;
-	padding: 10px 15px; 
+	padding: 10px 15px;
 }
 
 .navbar ul li a {
-	text-decoration: none; 
+	text-decoration: none;
+}
 
 .logo {
 	width: 100px;
@@ -329,13 +331,13 @@ button {
 	flex-wrap: nowrap;
 }
 .flex-form input[type="email"] {
-	background-color: #f0f0f0; 
-	border: 2px solid #dcdcdc; 
-	border-radius: 4px; 
-	padding: 10px; 
-	font-size: 16px; 
-	width: 100%; 
-	box-sizing: border-box; 
+	background-color: #f0f0f0;
+	border: 2px solid #dcdcdc;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
 	transition:
 		border-color 0.3s,
 		box-shadow 0.3s;
@@ -344,9 +346,9 @@ button {
 	background: rgba(232, 197, 176, 1);
 	color: rgb(34, 33, 33);
 	width: 150px;
-	border-radius: 5px; 
-	cursor: pointer; 
-	font-size: 16px; 
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
 	transition:
 		background-color 0.3s,
 		transform 0.2s;
@@ -421,8 +423,8 @@ button {
 
 /* Third section to explore trivia....................................................................... */
 .thirdSection {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	height: 900px;
 	margin-top: 10em;
 }
@@ -488,27 +490,32 @@ button {
 	box-shadow: none;
 	transform: translateY(0);
 }
-.thirdSectionCardHolder{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.thirdSectionCardHolder {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
 }
-.cardThirdSection1{
-    max-width: 500px;
-    height: 400px;
-    background-color: bisque;
+.cardThirdSection1 {
+	max-width: 500px;
+	height: 400px;
+	background-color: bisque;
 }
-.cardThirdSection1 img{
-    width:100px;
-    height: 100px;
-    border-radius:50%;
-    
+.cardThirdSection1 img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
 
 /* forth Section ......................................................................... */
 .forthSection {
-	height: 700px;
-	
+	height: 900px;
+	background-color: rgba(29, 70, 69, 1);
+	display: flex;
+	flex-direction: row-reverse;
+    justify-content: space-between;
+    justify-items: center;
 }
-
+.cardForthSection2 img {
+	width: 700px;
+}
